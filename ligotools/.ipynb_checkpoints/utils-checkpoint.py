@@ -15,8 +15,8 @@ import json
 
 # the IPython magic below must be commented out in the .py file, since it doesn't work there.
 # !pip install matplotlib==2.2
-%matplotlib inline
-%config InlineBackend.figure_format = 'retina'
+# %matplotlib inline
+# %config InlineBackend.figure_format = 'retina'
 import matplotlib.pyplot as plt
 import matplotlib.mlab as mlab
 
