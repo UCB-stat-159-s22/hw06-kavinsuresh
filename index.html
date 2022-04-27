@@ -51,7 +51,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="canonical" href="/user/kavins//proxy/absolute/8000/index.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Binder Link and Badge" href="BINDER.html" />
+    <link rel="prev" title="Github Pages" href="GITHUB-PAGES.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -99,6 +99,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1">
   <a class="reference internal" href="BINDER.html">
    Binder Link and Badge
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="GITHUB-PAGES.html">
+   Github Pages
   </a>
  </li>
  <li class="toctree-l1 current active">
@@ -759,6 +764,19 @@ Quitting.
 <span class="n">bits</span> <span class="o">=</span> <span class="n">chan_dict_L1</span><span class="p">[</span><span class="s1">&#39;DATA&#39;</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;For L1, </span><span class="si">{0}</span><span class="s2"> out of </span><span class="si">{1}</span><span class="s2"> seconds contain usable DATA&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">bits</span><span class="o">.</span><span class="n">sum</span><span class="p">(),</span> <span class="nb">len</span><span class="p">(</span><span class="n">bits</span><span class="p">)))</span>
  
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Input</span> <span class="n">In</span> <span class="p">[</span><span class="mi">6</span><span class="p">],</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># both H1 and L1 will have the same time vector, so:</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">time</span> <span class="o">=</span> <span class="n">time_H1</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="c1"># the time sample interval (uniformly sampled!)</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">dt</span> <span class="o">=</span> <span class="n">time</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">time</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="ne">NameError</span>: name &#39;time_H1&#39; is not defined
 </pre></div>
 </div>
 </div>
@@ -1526,11 +1544,11 @@ this is the “audio” equivalent of the enhanced visuals that NASA employs on 
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="BINDER.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="GITHUB-PAGES.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Binder Link and Badge</p>
+            <p class="prev-next-title">Github Pages</p>
         </div>
     </a>
 </div>
