@@ -79,7 +79,7 @@
 
 # ## Set the event name to choose event and the plot type
 
-# In[3]:
+# In[1]:
 
 
 #-- SET ME   Tutorial should work with most binary black hole events
@@ -96,7 +96,7 @@ plottype = "png"
 #plottype = "pdf"
 
 
-# In[4]:
+# In[2]:
 
 
 ## Standard python numerical analysis imports:
@@ -126,7 +126,7 @@ from ligotools import utils as util
 
 # ### Read the event properties from a local json file (download in advance):
 
-# In[5]:
+# In[3]:
 
 
 # Read the event properties from a local json file
@@ -147,7 +147,7 @@ except:
     quit()
 
 
-# In[6]:
+# In[4]:
 
 
 # Extract the parameters for the desired event:
@@ -167,7 +167,7 @@ fn_L1
 # ## Read in the data
 # We will make use of the data, and waveform template, defined above.
 
-# In[7]:
+# In[5]:
 
 
 #----------------------------------------------------------------
@@ -195,7 +195,7 @@ except:
 
 # ## First look at the data from H1 and L1
 
-# In[ ]:
+# In[6]:
 
 
 # both H1 and L1 will have the same time vector, so:

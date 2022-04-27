@@ -5,4 +5,5 @@ format: jb-book
 root: README
 chapters:
 - file: BINDER
+- file: GITHUB-PAGES
 - file: index
