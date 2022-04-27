@@ -60,7 +60,7 @@ def reqshift(data,fshift=100,sample_rate=4096):
 
 #plotting function
 # any # seen next to a line is saying taken care of for function parameter
-def plot_function(time, timemax, SNR, pcolor, det, eventname, plottype, tevent, strain_whitenbp, template_match, template_fft, datafreq, d_eff, template_f, freqs, data_psd, fs):
+def plot_function(time, timemax, SNR, pcolor, det, eventname, plottype, tevent, strain_whitenbp, template_match, template_fft, datafreq, d_eff, freqs, data_psd, fs):
         # -- Plot the result
         plt.figure(figsize=(10,8))
         plt.subplot(2,1,1)
