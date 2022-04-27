@@ -5,7 +5,6 @@
 #readligo.py tests
 from ligotools import loaddata
 
-
 strain_H1, time_H1, chan_dict_H1 = loaddata("data/H-H1_LOSC_4_V2-1126259446-32.hdf5", 'H1')
 strain_L1, time_L1, chan_dict_L1 = loaddata("data/L-L1_LOSC_4_V2-1126259446-32.hdf5", 'L1')
 
@@ -28,5 +27,7 @@ def test_dimensions():
     assert len(time_L1) == 131072
     assert len(chan_dict_H1) == 13
     assert len(chan_dict_L1) == 13
+    
+#utils.py tests
 
 
